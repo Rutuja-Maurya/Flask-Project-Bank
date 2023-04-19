@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .bg-image {
+        background-image: url("/static/images/Background.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px; 
+    }
+
+    .text-block {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size: 18px;
+			font-weight: bold;
+			text-align: center;
+			
+			padding: 20px;
+			background-color: rgba(0, 0, 0, 0.5);
+			border-radius: 10px;
+		}
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Demo Banking System</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="bg-image">
+    <div class="text-block">
+        <p style="color: orange; font-weight: bold;">
+            Demo banking system is a financial service that allows individuals and businesses to store and manage their money securely. It provides a wide range of services such as deposits, withdrawals, transfers, and transaction history. Deposits allow customers to save their money in various accounts such as savings, checking, or money market accounts. Withdrawals allow customers to access their funds when needed. Transfers enable customers to move their money from one account to another, or to send money to someone else.
+
+            Transaction history allows customers to track their financial activity and monitor their account balances. With the help of online banking, customers can perform banking transactions from the comfort of their home or office, using a computer or mobile device. Many banking systems also offer additional services such as bill payments, loans, and investment opportunities. Overall, a banking system provides a convenient and secure way for individuals and businesses to manage their finances and achieve their financial goals.
+        </p>
+    </div>
+</div>
+</body>
+</html>
